@@ -6,19 +6,19 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
 class CodeSignalListNodeTest {
-    public class Liquid {
-        String liquidType;
-
-        public Liquid(String x) {
-            liquidType = x;
-        }
-    }
-
-    public class Beer extends Liquid {
-        public Beer() {
-            super("beer");
-        }
-    }
+//    public class Liquid {
+//        String liquidType;
+//
+//        public Liquid(String x) {
+//            liquidType = x;
+//        }
+//    }
+//
+//    public class Beer extends Liquid {
+//        public Beer() {
+//            super("beer");
+//        }
+//    }
 
     @Test
     void reverse() {
